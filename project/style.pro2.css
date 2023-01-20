@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #343a40;
+  width: 130rem;
+  margin: 0 auto;
+  max-width: 100vw;
+  position: relative;
+}
+/* 
+###################################
+GENRAL REUSABLE COMPONENTS 
+###################################
+*/
+.grid {
+  display: grid;
+}
+
+.grid-columns-two {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-columns-three {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* all h2 */
+.secondry-header {
+  font-size: 4.4rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+/* h5 */
+.artical-text {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+/* text after h2 */
+.how-text {
+  font-size: 1.8rem;
+  color: #868e96;
+}
+
+.btn {
+  /* display: inline-block; */
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.8rem 1.2rem;
+  border-radius: 20px;
+}
+.icon {
+  width: 2.5rem;
+}
+.absolute-button {
+  width: 2.4rem;
+  padding: 24px;
+}
+.absolute-button {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background-color: rgba(255, 0, 0, 0.5);
+  position: absolute;
+  bottom: 1%;
+  right: 5%;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+.ion-absolute {
+  color: #eef1f6;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+}
+*:focus {
+  outline: none;
+  outline: 3px dotted #ff3e66;
+  outline-offset: 6px;
+}
